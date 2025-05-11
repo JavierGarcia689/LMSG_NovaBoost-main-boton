@@ -350,29 +350,6 @@ section {
   z-index: 1001;
 }
 
-/* ---------------- BOTÓN INICIO RESPONSIVE ---------------- */
-
-.boton-inicio-responsive {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: white;
-  color: black;
-  padding: 12px 18px;
-  border-radius: 50px;
-  text-decoration: none;
-  font-weight: bold;
-  font-family: "Cal Sans", sans-serif;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  z-index: 1000;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.boton-inicio-responsive:hover {
-  background-color: black;
-  color: white;
-}
 
 /* ---------------- RESPONSIVE ---------------- */
 
@@ -422,9 +399,6 @@ section {
     padding: 0;
   }
 
-  .boton-inicio-responsive {
-    display: block;
-  }
 }
 
 @media (max-width: 480px) {
